@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://ndingwall.github.io',
                 'git_url': 'https://github.com/ndingwall/nbdev-tutorial',
                 'lib_path': 'nbdev_tutorial'},
-  'syms': {'nbdev_tutorial.core': {'nbdev_tutorial.core.foo': ('core.html#foo', 'nbdev_tutorial/core.py')}}}
+  'syms': { 'nbdev_tutorial.core': {'nbdev_tutorial.core.foo': ('core.html#foo', 'nbdev_tutorial/core.py')},
+            'nbdev_tutorial.nbtutorial': { 'nbdev_tutorial.nbtutorial.foo': ('nbtutorial.html#foo', 'nbdev_tutorial/nbtutorial.py'),
+                                           'nbdev_tutorial.nbtutorial.say_hello': ( 'nbtutorial.html#say_hello',
+                                                                                    'nbdev_tutorial/nbtutorial.py')}}}
