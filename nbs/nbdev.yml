@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev-tutorial"
+  site-url: "https://ndingwall.github.io/nbdev-tutorial"
+  description: "Hello world using nbdev"
+  repo-branch: main
+  repo-url: "https://github.com/ndingwall/nbdev-tutorial"
